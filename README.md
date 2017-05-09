@@ -10,12 +10,9 @@ BSTBinaryHeap supports cocoapods for installing the library in a project.
 ```bash
 $ gem install cocoapods
 ```
-
-> CocoaPods 0.39.0+ is required to build AFNetworking 3.0.0+.
-
 #### Podfile
 
-To integrate AFNetworking into your Xcode project using CocoaPods, specify it in your `Podfile`:
+To integrate BSTBinaryHeap into your Xcode project using CocoaPods, specify it in your `Podfile`:
 
 ```ruby
 source 'https://github.com/CocoaPods/Specs.git'
