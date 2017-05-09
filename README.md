@@ -5,7 +5,7 @@ BSTBinaryHeap is a wrapper of CFBinaryHeap.it is useful for making a priority qu
 BSTBinaryHeap supports cocoapods for installing the library in a project.
 ## Installation with CocoaPods
 
-[CocoaPods](http://cocoapods.org) is a dependency manager for Objective-C, which automates and simplifies the process of using 3rd-party libraries like AFNetworking in your projects. See the ["Getting Started" guide for more information](https://github.com/AFNetworking/AFNetworking/wiki/Getting-Started-with-AFNetworking). You can install it with the following command:
+[CocoaPods](http://cocoapods.org) is a dependency manager for Objective-C, which automates and simplifies the process of using 3rd-party libraries like BSTBinaryHeap in your projects. You can install it with the following command:
 
 ```bash
 $ gem install cocoapods
