@@ -1,6 +1,7 @@
 # BSTBinaryHeap
 BSTBinaryHeap is a wrapper of CFBinaryHeap.it is useful for making a priority queue
-###installation
+
+### installation
 BSTBinaryHeap supports cocoapods for installing the library in a project.
 ## Installation with CocoaPods
 
