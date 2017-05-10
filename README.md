@@ -44,7 +44,7 @@ NSComparator _comparator_ = ^NSComparisonResult(id  _Nonnull obj1, id  _Nonnull 
 BSTBinaryHeap *heap = [[BSTBinaryHeap alloc] initWithComparator:_comparator_ andCapacity:10];
 ```
 ### Adding Object to Heap
-```
+```objective-c
 [heap addObj:[[TestObj alloc] initWith:1]];
 [heap addObj:[[TestObj alloc] initWith:2]];
 [heap addObj:[[TestObj alloc] initWith:3]];
@@ -52,7 +52,7 @@ BSTBinaryHeap *heap = [[BSTBinaryHeap alloc] initWithComparator:_comparator_ and
 [heap addObj:[[TestObj alloc] initWith:5]];
 ```
 ### Getting minimum one and Enumerating
-```
+```objective-c
 TestObj *minimal = (TestObj *)[heap removeMinimum];
 //enumerate
 [heap enumerateObjectsUsingBlock:^(id  _Nonnull object) {
