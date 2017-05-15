@@ -54,6 +54,7 @@ static NSComparator _comparator_ = ^NSComparisonResult(id  _Nonnull obj1, id  _N
 
 - (void)setUp {
     [super setUp];
+
     heap = [[BSTBinaryHeap alloc] initWithComparator:_comparator_ andCapacity:10];
     BSTAssertNotNil(heap);
 }

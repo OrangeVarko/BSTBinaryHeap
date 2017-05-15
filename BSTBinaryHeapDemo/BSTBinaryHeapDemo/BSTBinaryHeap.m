@@ -76,14 +76,14 @@ NS_INLINE CFBinaryHeapRef bst_CFBinaryHeapRefCreate(CFIndex capacity)
 - (NSUInteger)count
 {
     CFIndex count = CFBinaryHeapGetCount(_binaryHeap);
-    count = count < 0 ? 0 : count;
+    count = MAX(0, count);
     return count;
 }
 
 - (NSUInteger)countOf:(id)obj
 {
     CFIndex count = CFBinaryHeapGetCountOfValue(_binaryHeap, (__bridge const void *)(obj));
-    count = count < 0 ? 0 : count;
+    count = MAX(0, count);
     return count;
 }
 
